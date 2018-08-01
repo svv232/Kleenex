@@ -1,0 +1,21 @@
+klee --libc=uclibc --allocate-determ=1 --search=nurs:md2u --search=random-state test3.bc
+PID: 7963
+Started: 2018-06-12 16:24:48
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+WeightedRandomSearcher::MinDistToUncovered
+RandomSearcher
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-06-12 16:24:48
+Elapsed: 00:00:00
+KLEE: done: explored paths = 8
+KLEE: done: avg. constructs per query = 5
+KLEE: done: total queries = 8
+KLEE: done: valid queries = 0
+KLEE: done: invalid queries = 8
+KLEE: done: query cex = 8
+
+KLEE: done: total instructions = 4758
+KLEE: done: completed paths = 8
+KLEE: done: generated tests = 8

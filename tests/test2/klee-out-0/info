@@ -1,0 +1,21 @@
+klee Regexp.bc
+PID: 972
+Started: 2018-06-11 19:46:34
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2018-06-11 19:46:50
+Elapsed: 00:00:16
+KLEE: done: explored paths = 7438
+KLEE: done: avg. constructs per query = 17
+KLEE: done: total queries = 178
+KLEE: done: valid queries = 14
+KLEE: done: invalid queries = 164
+KLEE: done: query cex = 178
+
+KLEE: done: total instructions = 4598603
+KLEE: done: completed paths = 7438
+KLEE: done: generated tests = 6677

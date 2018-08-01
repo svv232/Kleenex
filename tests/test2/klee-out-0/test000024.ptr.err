@@ -1,0 +1,20 @@
+Error: memory error: out of bound pointer
+File: /home/klee/Fuzzler/tests/test2/Regexp.c
+Line: 25
+assembly.ll line: 93
+Stack: 
+	#000000093 in matchhere (re=34012454, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:25
+	#100000203 in matchstar (c, re=34012454, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:16
+	#200000106 in matchhere (re=34012452, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:26
+	#300000203 in matchstar (c, re=34012452, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:16
+	#400000106 in matchhere (re=34012450, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:26
+	#500000203 in matchstar (c, re=34012450, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:16
+	#600000106 in matchhere (re=34012448, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:26
+	#700000043 in match (re=34012448, text=34172752) at /home/klee/Fuzzler/tests/test2/Regexp.c:38
+	#800000183 in main () at /home/klee/Fuzzler/tests/test2/Regexp.c:59
+Info: 
+	address: 34012455
+	next: object at 34014480 of size 8
+		MO26[8] allocated at match():  %3 = alloca i8*, align 8
+	prev: object at 34012448 of size 7
+		MO20[7] allocated at main():  %re = alloca [7 x i8], align 1

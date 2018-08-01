@@ -1,0 +1,25 @@
+USEFUL DOCUMENTATION
+--------------------
+http://www.doc.ic.ac.uk/~dsl11/klee-doxygen/classes.html
+https://github.com/feliam/klee-taint
+https://github.com/dvorak42/confuzzer/blob/master/test4.c
+http://lcamtuf.coredump.cx/afl/README.txt
+https://dspace.mit.edu/bitstream/handle/1721.1/100620/932641731-MIT.pdf?sequence=1
+https://arxiv.org/pdf/1711.09362.pdf
+https://github.com/mcarpenter/afl/blob/master/experimental/argv_fuzzing/argv-fuzz-inl.h
+http://llvm.org/pubs/2008-12-OSDI-KLEE.pdf
+https://arxiv.org/pdf/1709.07101.pdf
+https://blog.trailofbits.com/2018/01/23/heavy-lifting-with-mcsema-2-0/
+https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/
+https://klee.github.io/
+http://lcamtuf.coredump.cx/afl/QuickStartGuide.txt
+https://klee.github.io/tutorials/testing-coreutils/
+https://blog.trailofbits.com/2018/05/03/state-machine-testing-with-echidna/
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/unit-1-software-engineering/state-machines/MIT6_01SCS11_chap04.pdf
+http://www.i-programmer.info/babbages-bag/23-turing-machines.html
+https://heap-exploitation.dhavalkapil.com/attacks/unlink_exploit.html
+https://blog.markshead.com/869/state-machines-computer-science/
+http://mailman.ic.ac.uk/pipermail/klee-dev/2013-September/000326.html
+https://github.com/shellphish/driller
+https://msdn.microsoft.com/en-us/library/cc162782.aspx
+https://www.blackhat.com/docs/eu-17/materials/eu-17-Heelan-Heap-Layout-Optimisation-For-Exploitation.pdf
